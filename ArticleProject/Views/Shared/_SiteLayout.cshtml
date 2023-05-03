@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سایت مقالات</title>
+    <partial name="_HeaderRefrences" />
+    @RenderSection("styles", false)
+</head>
+<body >
+    <div style="direction:rtl !important" class="text-right">
+    @await Component.InvokeAsync("SiteHeader")
+    @RenderBody()
+    @await Component.InvokeAsync("SiteFooter")
+    <partial name="_FooterRefrences" />
+    @RenderSection("scripts", false)
+        @* @await RenderSectionAsync("Scripts", required: false)*@
+    </div>
+</body>
+</html>

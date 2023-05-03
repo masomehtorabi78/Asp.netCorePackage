@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سایت مقالات</title>
+    <partial name="_HeaderRefrences" />
+    @RenderSection("styles", false)
+</head>
+<body lass="vertical-layout vertical-menu-collapsible page-header-dark vertical-modern-menu preload-transitions 2-columns   " data-open="click" data-menu="vertical-modern-menu" data-col="2-columns">
+   @* @await Component.InvokeAsync("SiteHeader")*@
+    @await Component.InvokeAsync("AdminSidebar")
+    @RenderBody()
+
+    <footer class="page-footer footer footer-static footer-dark gradient-45deg-indigo-purple gradient-shadow navbar-border navbar-shadow">
+        <div class="footer-copyright">
+            <div class="container"><span>&copy; ۱۴۰۱ <a href="https://www.aidpc.com/" target="_blank">تیم آرین ایده</a> تمامی حقوق محفوظ است</span></div>
+        </div>
+    </footer>
+
+
+
+    <!-- END: Page Main-->
+  @*  @await Component.InvokeAsync("SiteFooter")*@
+    <partial name="_FooterRefrences" />
+    @RenderSection("scripts", false)
+   @* @await RenderSectionAsync("Scripts", required: false)*@
+</body>
+</html>

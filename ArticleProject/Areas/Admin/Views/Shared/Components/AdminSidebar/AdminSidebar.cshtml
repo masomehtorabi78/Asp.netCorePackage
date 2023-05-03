@@ -1,0 +1,107 @@
+﻿   <!-- BEGIN: Page Main-->
+<!-- BEGIN: Header-->
+<header class="page-topbar" id="header">
+    <div class="navbar navbar-fixed">
+        <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark gradient-45deg-indigo-purple no-shadow">
+            <div class="nav-wrapper">
+                <div class="header-search-wrapper hide-on-med-and-down">
+                    <i class="material-icons">search</i>
+                    <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="کاوش در متریالایز" data-search="template-list">
+                    <ul class="search-list collection display-none"></ul>
+                </div>
+                <ul class="navbar-list right">
+                    <li class="dropdown-language"><a class="waves-effect waves-block waves-light translation-button" href="#" data-target="translation-dropdown"><span class="flag-icon flag-icon-gb"></span></a></li>
+                    <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
+                    <li class="hide-on-large-only search-input-wrapper"><a class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i class="material-icons">search</i></a></li>
+                    <li><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="notifications-dropdown"><i class="material-icons">notifications_none<small class="notification-badge">۵</small></i></a></li>
+                    <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);" data-target="profile-dropdown"><span class="avatar-status avatar-online"><img src="/admin/images/avatar/avatar-7.png" alt="avatar"><i></i></span></a></li>
+                </ul>
+                <!-- translation-button-->
+                <ul class="dropdown-content" id="translation-dropdown">
+                    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="en"><i class="flag-icon flag-icon-gb"></i> انگلیسی</a></li>
+                    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="fr"><i class="flag-icon flag-icon-fr"></i> فرانسوی</a></li>
+                    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="pt"><i class="flag-icon flag-icon-pt"></i> پرتغالی</a></li>
+                    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="de"><i class="flag-icon flag-icon-de"></i> آلمانی</a></li>
+                </ul>
+                <!-- notifications-dropdown-->
+                <ul class="dropdown-content" id="notifications-dropdown">
+                    <li>
+                        <h6>اطلاعیه‌ها<span class="new badge">5</span></h6>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="black-text" href="#!"><span class="material-icons icon-bg-circle cyan small">add_shopping_cart</span> سفارش جدیدی ثبت شده است!</a>
+                        <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">2 ساعت پیش</time>
+                    </li>
+                    <li>
+                        <a class="black-text" href="#!"><span class="material-icons icon-bg-circle red small">stars</span> وظیفه انجام شد</a>
+                        <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">3 روز پیش</time>
+                    </li>
+                    <li>
+                        <a class="black-text" href="#!"><span class="material-icons icon-bg-circle teal small">settings</span> تنظیمات به‌روز رسانی شد</a>
+                        <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">4 روز پیش</time>
+                    </li>
+                </ul>
+                <!-- profile-dropdown-->
+                <ul class="dropdown-content" id="profile-dropdown">
+                    <li><a class="grey-text text-darken-1" href="user-profile-page.html"><i class="material-icons">person_outline</i> پروفایل</a></li>
+                    <li><a class="grey-text text-darken-1" href="app-chat.html"><i class="material-icons">chat_bubble_outline</i> چت</a></li>
+                    <li class="divider"></li>
+                    <li><a class="grey-text text-darken-1" href="user-login.html"><i class="material-icons">keyboard_tab</i> خروج</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- END: Header-->
+<!-- BEGIN: SideNav-->
+<aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-light sidenav-active-square">
+    <div class="brand-sidebar">
+        <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="index.html"><img class="hide-on-med-and-down" src="/admin/images/logo/materialize-logo-color.png" alt="materialize logo" /><img class="show-on-medium-and-down hide-on-med-and-up" src="/admin/images/logo/materialize-logo.png" alt="materialize logo" /><span class="logo-text hide-on-med-and-down">متریالایز</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
+    </div>
+    <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
+        <li class="bold">
+            <a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Dashboard">داشبورد</span><span class="badge badge pill orange float-right mr-10">۳</span></a>
+            <div class="collapsible-body">
+                <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                    <li>
+                        <a href="dashboard-modern.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Modern">مدرن</span></a>
+                    </li>
+                    <li>
+                        <a href="dashboard-ecommerce.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="eCommerce">فروشگاه</span></a>
+                    </li>
+                    <li>
+                        <a href="dashboard-analytics.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Analytics">تجزیه و تحلیل</span></a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="navigation-header">
+            <a class="navigation-header-text">بخش ها‌</a><i class="navigation-header-icon material-icons">more_horiz</i>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " asp-area="Site" asp-controller="Home" asp-action="Index"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">صفحه اصلی سایت</span><span class="badge new badge pill pink accent-2 float-right mr-2">۵</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="material-icons">chat_bubble_outline</i><span class="menu-title" data-i18n="Chat">داشبورد</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " asp-area="Admin" asp-controller="Publisher" asp-action="Index"><i class="material-icons">check</i><span class="menu-title" data-i18n="ToDo">ناشر</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " href="app-kanban.html"><i class="material-icons">format_list_bulleted</i><span class="menu-title" data-i18n="Kanban">کانبان</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " href="app-file-manager.html"><i class="material-icons">content_paste</i><span class="menu-title" data-i18n="File Manager">مدیریت فایل</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " href="app-contacts.html"><i class="material-icons">import_contacts</i><span class="menu-title" data-i18n="Contacts">مخاطبین</span></a>
+        </li>
+        <li class="bold">
+            <a class="waves-effect waves-cyan " href="app-calendar.html"><i class="material-icons">today</i><span class="menu-title" data-i18n="Calendar">تقویم</span></a>
+        </li>
+
+    </ul>
+    <div class="navigation-background"></div><a class="sidenav-trigger btn-sidenav-toggle btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out"><i class="material-icons">menu</i></a>
+</aside>
+<!-- END: SideNav-->
